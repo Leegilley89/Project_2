@@ -1,3 +1,5 @@
 # Project_2
 
-<a href="index.html">project 2</a>
+<ul>
+    <li><a href="advanced_css.html" target="_blank">advanced css</a></li>
+</ul>

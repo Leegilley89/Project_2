@@ -1,10 +1,11 @@
-body {background-color: black;
+body {
+    background-color: black;
     color: beige;
 }
 
 #container {
     background-color: rgb(84, 2, 2);
-    width: 1200px;
+    width: 75%;
     margin: 20px auto;
     padding: 20px;
     border: 2px dashed whitesmoke;
@@ -44,18 +45,32 @@ nav {
     color: blue;
     font-size: 20px;
     font-weight: bolder;
+    background-color: chocolate;
+    border-radius: 10px;
+    ;
 }
 
-nav a {
-    color: darkblue;
-    font-size: 20px;
+nav ul {
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: rgb(54, 2, 69);
+    font-size: 26px;
     font-weight: bold;
-    margin: 0 10px 0 10px;
-}
-
-nav a:hover {
-    text-decoration: none;
-    color: aquamarine;
+    padding: 20px;
+    margin: 0 20px;
+    width: 125px;
+    height: 25px;
+    line-height: 40px;
 }
 
 main {
@@ -63,6 +78,7 @@ main {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+
 }
 
 main img {
@@ -72,8 +88,8 @@ main img {
 }
 
 footer {
-    padding: 20px;
-    text-align: center;
+    background-color: #2c3e50;
+    color: white;
 }
 
 #list {
@@ -85,50 +101,46 @@ footer {
 }
 
 img {
+    width: 75%;
+    margin: 50px auto;
     display: block;
-    margin: 100px auto;
-    width: 500px;
+    inline-size: none;
 }
 
 ol {
     background-color: rgb(84, 2, 2);
-    width: 800px;
+    width: 75%;
     margin: 20px auto;
     padding: 20px;
     border: 2px solid whitesmoke; 
 }
 
-p3 {
-    background-color: blue;
-    width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 2px solid whitesmoke;
-}
-
 p {
     background-color: rgb(84, 2, 2);
-    width: 800px;
+    width: 75%;
     margin: 20px auto;
     padding: 20px;
     border: 2px solid whitesmoke;
-}
-
-ul {
-    text-align: center;
-    color: blue;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-ul a {
-    color: darkblue;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 10px 0 10px;
 }
 
 ul a:hover {
     text-decoration: none;
     color: aquamarine;
+}
+
+#banner {
+    width: 65%;
+    height: auto;
+    padding: 25px;
+    border: #480960 5px solid;
+    box-shadow: #12292e 5px 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section, aside {
+        width: 100%;
+    }    
 }
