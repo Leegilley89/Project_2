@@ -21,7 +21,6 @@ h1 {
     font-weight: bold;
     font-size: 24px;
     border-bottom: 2px solid green;
-    
 }
 
 h2 {
@@ -29,7 +28,6 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     border-bottom: 2px solid green;
-    
 }
 
 h3 {
@@ -37,17 +35,12 @@ h3 {
     font-weight: bold;
     font-size: 24px;
     border-bottom: 2px solid green;
-    
 }
 
 nav {
     text-align: center;
     color: blue;
     font-size: 20px;
-    font-weight: bolder;
-    background-color: chocolate;
-    border-radius: 10px;
-    ;
 }
 
 nav ul {
@@ -96,15 +89,11 @@ footer {
     border: 2px solid whitesmoke;
 }
 
-#ol {
-    border: 5px solid purple;
-}
 
 img {
     width: 75%;
     margin: 50px auto;
     display: block;
-    inline-size: none;
 }
 
 ol {
